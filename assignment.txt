@@ -1,0 +1,19 @@
+Create a simple web application that allows users to manage a list of items. The application should have the following features:
+1. **Add Item:** Users should be able to add new items to the list. Each item should have a name and a description.
+2. **View Items:** Users should be able to view all the items in the list.
+3. **Search Items:** Users should be able to search for items by name.
+**Technical Requirements:**
+1. Use Java for the backend. You can use a framework like Spring Boot to create a simple REST API.
+2. Use ReactJS for the frontend. The ReactJS application should communicate with the backend API to add, view, and search items.
+3. Use an in-memory database or a simple file-based storage system to store the items. You don't need to set up a full database for this assignment.
+4. Write clear, readable, and well-documented code.
+
+**Deliverables:**
+1. The source code for the application, preferably shared via a GitHub repository.
+2. A short video demonstrating the functionality of the application. You can use screen recording software to create this video.
+3. A README file that explains how to run the application.
+**Bonus:**
+If you want to go a step further, you can deploy the application to a free hosting service. Heroku is a good option for hosting Java applications, and Vercel or Netlify can be used for hosting React applications. However, this is not a requirement for the assignment.]
+Thanks,
+Sagar
+Submission deadline: 13 May, 2023

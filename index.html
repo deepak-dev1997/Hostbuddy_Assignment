@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HostBuddy Assignment</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Hostbuddy Assignment</h1>
+    <div id="add-container">
+        <input type="text" id="name" placeholder="Item Name">
+        <input type="text" id="description" placeholder="Item Description">
+        <button id="add" style="width: 20%;">Add Item</button>
+    </div>
+
+    <div id="view">
+        <button id="viewall" style="width: 30%;">View All Items</button>
+        <div>
+            <input type="text" id="Searchbox" placeholder="Search">
+            <button id="search">Search/Clear</button>
+        </div>
+    </div>
+
+    <div class="table-container">
+        <table>
+            <colgroup>
+              <col style="width: 10%">
+              <col style="width: 30%">
+              <col style="width: 60%; overflow: auto;">
+              
+            </colgroup>
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              
+            </tbody>
+          </table>
+    </div> 
+    
+    <script src="dom.js"></script>
+</body>
+</html>
